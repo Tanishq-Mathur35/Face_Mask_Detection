@@ -10,7 +10,7 @@ st.set_page_config(page_title="Face Mask Detection", layout="centered")
 st.title("😷 Face Mask Detection System")
 st.write("Upload an image or use webcam for real-time face mask detection")
 
-model = load_model("face_mask_detection_model.h5", compile=False)
+model = load_model("mask_detection_model.h5", compile=False)
 
 # ---------------- IMAGE UPLOAD SECTION ---------------- #
 
